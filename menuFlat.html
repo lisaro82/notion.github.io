@@ -107,16 +107,6 @@ nav ul li ul li a:hover {
       /*CSS END*/
     </style>
 
-    <script>
-      /**************************************************************************************************************************************/
-      /*JS START*/
-  $('.sub-menu ul').hide();
-$(".sub-menu a").click(function () {
-  $(this).parent(".sub-menu").children("ul").slideToggle("200");
-  $(this).find("i.fa").toggleClass("fa-angle-up fa-angle-down");
-});
-      /*JS END*/  
-    </script>  
 </head>
 
 <body>
@@ -185,4 +175,14 @@ $(".sub-menu a").click(function () {
     </li>
   </ul>
 </nav>
+     <script>
+      /**************************************************************************************************************************************/
+      /*JS START*/
+  $('.sub-menu ul').hide();
+$(".sub-menu a").click(function () {
+  $(this).parent(".sub-menu").children("ul").slideToggle("200");
+  $(this).find("i.fa").toggleClass("fa-angle-up fa-angle-down");
+});
+      /*JS END*/  
+    </script>  
 </body>  
